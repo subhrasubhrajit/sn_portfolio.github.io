@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:wght@300;400;700&family=Montserrat:wght@300&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style2.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header>
+        <div class="page-blur">
+            <div class="container">
+                <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+                    <div class="container-fluid py-3">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="#about">About</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="#skill">Skills</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="#edu">Education</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" aria-current="page" href="#achiv">Achivements</a>
+                                </li>
+                                <li class="nav-item px-2 pe-lg-4">
+                                    <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="hero flex items-center">
+                    <div class="left flex-1 flex justify-content-center">
+                        <img class="hero-img img-fluid" alt="Responsive image"
+                            src="assets\images/personal pic/DSC01951.JPG" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>I'm</h6>
+                        <h1>SUBHRAJIT <span class="pl-1">NANDY</span></h1>
+                        <div class="aot flex">
+                            <div class="stil-txt">I'm&nbsp</div>
+                            <div class="typing" id="auto-ty"></div>
+                        </div>
+                        <div>
+                            <a href="assets\CV updated.docx" class="btn-secondery" download="CV">Resume</a>
+                            <a class="btn-secondery mx-5" href="#">Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container flex inner-warp">
+            <div class="flex-1 flex justify-content-center">
+                <img class="about-me-img img-fluid" alt="Responsive image" src="assets\images\personal pic\DSC01964.JPG"
+                    alt="">
+            </div>
+            <div class="flex-1 about-right">
+                <h1>A bit <span>About Me</span></h1>
+                <h3 class="mb-4">Hello! i'm Subhrajit Nandy</h3>
+                <p>I am form Howrah, West Bengal, India. I want to harness my abilities fully in contributing to the
+                    growth of the organization and ensuring self-progress through hardwork and determination along with
+                    continuously upgrading my knowledge and skills.</p>
+            </div>
+        </div>
+    </section>
+    <div id="skill" class="Skill">
+        <div class="container">
+            <h1 class="skill-text-prime text-center">My <span class="skill-text-prime-1">Skills</span></h1>
+            <p class="skill-text-second text-center capitalize">There are some<span class="skill-text-second-1">
+                    skills</span> on which I have a good grip.</p>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto mb-4">
+                    <span class="skill-text-heading"><u>Programming Languages</u></span>
+                </div>
+            </div>
+            <div class="row skill-bars">
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 C</span>
+                    </div>
+                    <div class="progress-line c">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 C++</span>
+                    </div>
+                    <div class="progress-line cs">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center mt-4">
+                <div class="col-md-auto mb-4">
+                    <span class="skill-text-heading"><u>electronics designing & embedded system</u></span>
+                </div>
+            </div>
+            <div class="row skill-bars">
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Arduino</span>
+                    </div>
+                    <div class="progress-line arduino">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Raspberry Pi</span>
+                    </div>
+                    <div class="progress-line raspberry">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 IoT</span>
+                    </div>
+                    <div class="progress-line iot">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center skill-bars">
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 PLC Designing</span>
+                    </div>
+                    <div class="progress-line plc">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 PCB Designing</span>
+                    </div>
+                    <div class="progress-line pcb">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Machine Learning</span>
+                    </div>
+                    <div class="progress-line ml">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-md-center mt-4">
+                <div class="col-md-auto mb-4">
+                    <span class="skill-text-heading"><u>web designing</u></span>
+                </div>
+            </div>
+            <div class="row skill-bars">
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 HTML & CSS</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 JavaScript</span>
+                    </div>
+                    <div class="progress-line script">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Bootstrap</span>
+                    </div>
+                    <div class="progress-line boot">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center skill-bars">
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Django</span>
+                    </div>
+                    <div class="progress-line django">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 Flask</span>
+                    </div>
+                    <div class="progress-line flask">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col-sm bar border-rounded-xl justify-between items-center">
+                    <div class="info">
+                        <span>&#9679 React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="edu" class="education">
+        <div class="container">
+            <div class="timeline">
+                <h1 class="heading text-center">education</h1>
+                <div class="cards">
+                    <div class="cards-body">
+                        <h1 class="cards-title-1">Class X</h1>
+                        <p class="cards-detail">uttarpara model high school</p>
+                        <p class="cards-detail">WBBSE - <span class="cards-title">2011</span></p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="cards-body">
+                        <h1 class="cards-title-1">Class XII</h1>
+                        <p class="cards-detail">bally jora aswatthatala vidyalaya</p>
+                        <p class="cards-detail">WBCHSE - <span class="cards-title">2011-2013</span></p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="cards-body">
+                        <h1 class="cards-title-1">Diploma</h1>
+                        <p class="cards-detail">technique polytechnic institute</p>
+                        <p class="cards-detail">WBSTCET - <span class="cards-title">2017-2020</span></p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="cards-body">
+                        <h1 class="cards-title-1">Bachelor Degree</h1>
+                        <p class="cards-detail">St. thomas college of engineering & technology</p>
+                        <p class="cards-detail">MAKAUT - <span class="cards-title">2020-Present</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="achiv" class="achivement my-5">
+        <div class="achivement-text-prime">Achivements<span class="achivement-text-prime-1"> & </span> Awardes</div>
+        <div class="container contain flex justify-content-center items-center ">
+            <div class="achivement-card">
+                <div class="box">
+                    <div class="content">
+                        <h2>T</h2>
+                        <h3>Technical</h3>
+                        <p>These are some Technical achivements</p>
+                        <a href="tech.html" target="blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achivement-card">
+                <div class="box">
+                    <div class="content">
+                        <h2>N</h2>
+                        <h3>Non-Technical</h3>
+                        <p>These are some Non-Technical achivements.</p>
+                        <a href="non-tech.html" target="blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achivement-card">
+                <div class="box">
+                    <div class="content">
+                        <h2>A</h2>
+                        <h3>Awards</h3>
+                        <p>I have published an articale on IJEAT</p>
+                        <a href="assets\achive.html" target="blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="achivement-text-prime" style="padding-bottom: 2.5rem;">Contact<span class="achivement-text-prime-1"> Me</span></div>
+            <div class="contact-in">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.7052015395!2d88.344609414933!3d22.62748118515459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d6916a1558b%3A0xae3825a48df9c3d5!2s49%2C%20Shib%20Chandra%20Chatterjee%20St%2C%20Liluah%2C%20Howrah%2C%20West%20Bengal%20711202!5e0!3m2!1sen!2sin!4v1645295866701!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <form action="">
+                            <div class="form-group py-2">
+                                <input class="form-control" type="text" placeholder="Name" required>
+                            </div>
+                            <div class="form-group py-2">
+                                <input class="form-control" type="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group py-2">
+                                <textarea class="form-control" cols="30" rows="5" placeholder="Your message"></textarea>
+                            </div>
+                            <button class="btn-cont px-5 my-1" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+            <button type="button" class=" py-2 text-primary mr-2"><a href="https://www.facebook.com"
+                    target="blank"><i class="fa-brands fa-facebook-f fa-2x"></i></a></button>
+            <button type="button" class=" py-2 text-primary mr-2"><a href="https://twitter.com"
+                    target="blank"><i class="fa-brands fa-twitter fa-2x"></i></a></button>
+            <button type="button" class=" py-2 text-primary mr-2"><a href="https://api.whatsapp.com"
+                    target="blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a></button>
+            <button type="button" class=" py-2 text-primary mr-2"><a href="https://www.instagram.com/"
+                    target="blank"><i class="fa-brands fa-instagram fa-2x"></i></a></button>
+            <button type="button" class=" py-2 text-primary mr-2"><a href="https://github.com/"
+                    target="blank"><i class="fa-brands fa-github fa-2x"></i></a></button>
+        </div>
+    </footer>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/74dd71e869.js" crossorigin="anonymous"></script>
+    <script src="assets/App.js"></script>
+</html>

@@ -1,0 +1,243 @@
+.flex{
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.btn-secondery{
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border: 3px solid ;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background: transparent;
+    color: var(--pure);
+}
+.btn-secondery:hover{
+    border-color: var(--primary);
+    color: var(--primary);
+    transition: all .3s ease;
+}
+.flex-1{
+    flex: 1;
+}
+.border-rounded-xl {
+    margin: 1.2rem 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #161616b4;
+    border-radius: 1rem;
+}
+.skill-text-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000c4;
+    text-transform: capitalize;
+}
+::selection{
+    color: #fff;
+    /* background: #6665ee; */
+}
+.skill-bars .bar .info{
+    margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
+}
+.skill-bars .bar .progress-line{
+    height: 5px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 10px rgba(0,0,0,0.5),0 1px rgba(242,112,156,0.5);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-image: linear-gradient(90deg, rgba(53,176,180,1) 0%, rgba(22, 22, 22, 0.644) 100%);
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.c span{
+  width: 75%;
+}
+.bar .progress-line.cs span{
+  width: 60%;
+}
+.bar .progress-line.python span{
+  width: 85%;
+}
+.bar .progress-line.arduino span{
+  width: 72%;
+}
+.bar .progress-line.raspberry span{
+  width: 60%;
+}
+.bar .progress-line.iot span{
+  width: 80%;
+}
+.bar .progress-line.plc span{
+  width: 72%;
+}
+.bar .progress-line.pcb span{
+  width: 65%;
+}
+.bar .progress-line.ml span{
+  width: 70%;
+}
+.bar .progress-line.html span{
+  width: 90%;
+}
+.bar .progress-line.script span{
+  width: 82%;
+}
+.bar .progress-line.boot span{
+  width: 87%;
+}
+.bar .progress-line.django span{
+  width: 50%;
+}
+.bar .progress-line.flask span{
+  width: 70%;
+}
+.bar .progress-line.react span{
+  width: 65%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: rgba(22, 22, 22, 0.877);
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: rgba(22, 22, 22, 0.877);
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.c span::after{
+  content: "75%";
+}
+.progress-line.cs span::after{
+  content: "60%";
+}
+.progress-line.python span::after{
+  content: "85%";
+}
+.progress-line.arduino span::after{
+  content: "72%";
+}
+.progress-line.raspberry span::after{
+  content: "60%";
+}
+.progress-line.iot span::after{
+  content: "80%";
+}
+.progress-line.plc span::after{
+  content: "75%";
+}
+.progress-line.pcb span::after{
+  content: "65%";
+}
+.progress-line.ml span::after{
+  content: "70%";
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.script span::after{
+  content: "82%";
+}
+.progress-line.boot span::after{
+  content: "87%";
+}
+.progress-line.django span::after{
+  content: "50%";
+}
+.progress-line.flask span::after{
+  content: "70%";
+}
+.progress-line.react span::after{
+  content: "65%";
+}
+.contact{
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  align-items: center;
+  background: #F2F2F2;
+}
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f0f0f0;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+.contact-map {
+  width: 100%;
+  height: 100%;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.btn-cont {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #3dcfd3;
+  color: #161616;
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
